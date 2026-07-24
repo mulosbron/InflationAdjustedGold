@@ -1,6 +1,12 @@
 # Altın Fiyatları ve Enflasyon Analiz Sistemi
 Bu notebook, tarihsel altın fiyatlarını (XAU/USD) ABD enflasyon verileriyle (CPI) harmanlayarak, altının **1978 yılındaki alım gücüyle** gerçek değerini hesaplar. 
 
+## Önemli Uyarılar
+
+- **LLM'ler halüsinasyon yapabilir** - Verileri mutlaka doğrulayın
+- **Yatırım tavsiyesi değildir** - Profesyonel danışmanlık alın
+- **Eğitim amaçlıdır** - Sorumluluk size aittir
+
 ### İş Akışı:
 1. **Veri Yükleme:** `Weekly_EoP.csv` (Haftalık Altın) ve `inflation.csv` (Aylık CPI) dosyaları okunur.
 2. **Veri Temizliği:** Tarihler düzenlenir, gereksiz sütunlar ayıklanır.
